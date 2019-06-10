@@ -280,7 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642373303}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.3, y: -15.2, z: -0.59479463}
+  m_LocalPosition: {x: -75.4, y: -14.9, z: -0.59479463}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -337,15 +337,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
-  m_GravityScale: 50
+  m_Mass: 1.25
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 110
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &642373309
 Animator:
   serializedVersion: 3
@@ -496,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 882465996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.13, y: 0.34, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.17400001, z: 0.2}
+  m_LocalScale: {x: 0.22049998, y: 0.17400001, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

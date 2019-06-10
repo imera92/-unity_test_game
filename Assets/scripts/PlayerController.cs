@@ -6,11 +6,12 @@ public class PlayerController : MonoBehaviour
 {
     bool can_jump;
     public Animator animator;
+    private Rigidbody2D body;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        body = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -38,7 +39,7 @@ public class PlayerController : MonoBehaviour
         // Salto
         if (Input.GetKeyDown("space") && can_jump) {
             can_jump = false;
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 875000F));
+            body.AddForce(new Vector2(0, 375F), ForceMode2D.Impulse);
             animator.SetBool("Jumping", true);
         }
     }
